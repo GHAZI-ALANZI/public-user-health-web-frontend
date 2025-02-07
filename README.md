@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+🩺 A modern, responsive health dashboard built with Next.js 15 & Tailwind CSS
+This dashboard provides patient management, health services, and authentication integration.
 
-First, run the development server:
+# 📌 Features
+✅ User Authentication (Login, Registration, JWT-based sessions)
+✅ Medical Services: View health-related services with interactive UI
+✅ Patient Dashboard: View & update medical records
+✅ Secure API Integration with FastAPI backend
+✅ Modern UI with Tailwind CSS
+✅ Docker & Docker Compose Support
 
-```bash
+# 📌 Installation & Setup
+ Clone the Repository
+
+git clone https://github.com/GHAZI-ALANZI/public-user-health-web-frontend.git
+
+# Install Dependencies
+
+npm install
+
+
+# Run Locally
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📍 Dashboard URL: http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 📌 Running with Docker
+1️⃣ Build & Start the Container
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+docker-compose up --build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Stop the Container
 
-## Learn More
+docker-compose down
 
-To learn more about Next.js, take a look at the following resources:
+✅ Runs the dashboard in a fully containerized environment.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 📌 Folder Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+nextjs-medical-dashboard/
+│── components/         # Reusable UI components
+│── pages/              # Next.js pages
+│── public/             # Static assets
+│── styles/             # Tailwind CSS styles
+│── utils/              # API integration functions
+│── .dockerignore       # Ignore unnecessary files for Docker
+│── .env.local          # Environment variables
+│── Dockerfile          # Docker setup
+│── docker-compose.yml  # Docker Compose configuration
+│── README.md           # Project documentation
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🚀 Now Your Next.js Health Dashboard is Fully Documented & Deployment-Ready!
+✅ Professional README format
+✅ API & Docker integration included
+✅ Authentication & UI details covered
+Let me know if you need any modifications! 🚀🔥😊

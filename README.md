@@ -10,10 +10,16 @@ This dashboard provides patient management, health services, and authentication 
 ✅ Modern UI with Tailwind CSS
 ✅ Docker & Docker Compose Support
 
+
+<img width="960" alt="Image" src="https://github.com/user-attachments/assets/c8ea14b0-bd02-4d3f-8688-7799d94853b2" />
+
+<img width="960" alt="Image" src="https://github.com/user-attachments/assets/1ea50aed-88e9-49a7-a5b9-bfe18a8f1c6d" />
+
+
 # 📌 Installation & Setup
  Clone the Repository
-
-git clone https://github.com/GHAZI-ALANZI/public-user-health-web-frontend.git
+ 
+ git clone https://github.com/GHAZI-ALANZI/public-user-health-web-frontend.git
 
 # Install Dependencies
 

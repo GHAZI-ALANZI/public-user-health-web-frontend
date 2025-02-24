@@ -38,17 +38,27 @@ docker-compose down
 
 # 📌 Folder Structure
 
-nextjs-medical-dashboard/
-│── components/         # Reusable UI components
-│── pages/              # Next.js pages
-│── public/             # Static assets
-│── styles/             # Tailwind CSS styles
-│── utils/              # API integration functions
-│── .dockerignore       # Ignore unnecessary files for Docker
-│── .env.local          # Environment variables
-│── Dockerfile          # Docker setup
-│── docker-compose.yml  # Docker Compose configuration
-│── README.md           # Project documentation
+public-user-health-web-frontend
+
+ ── components/         # Reusable UI components
+ 
+ ── pages/              # Next.js pages
+ 
+ ── public/             # Static assets
+ 
+ ── styles/             # Tailwind CSS styles
+ 
+ ── utils/              # API integration functions
+ 
+ ── .dockerignore       # Ignore unnecessary files for Docker
+ 
+ ── .env.local          # Environment variables
+ 
+ ── Dockerfile          # Docker setup
+ 
+ ── docker-compose.yml  # Docker Compose configuration
+ 
+ ── README.md           # Project documentation
 
 
 🚀 Now Your Next.js Health Dashboard is Fully Documented & Deployment-Ready!
